@@ -1,0 +1,75 @@
+// bower:scss
+// endbower
+
+$lightPurple: #9f00a7;
+$red: #ee1111;
+$blue: #2d89ef;
+$dark: #1d1d1d;
+
+body {
+  background: $blue;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* min-height: 2000px; vh fallback */
+  /* min-height: 200vh; */
+}
+
+.headline-alpha {
+  text-align: center;
+}
+
+.button-cta {
+  background: $red;
+  width: 85%;
+  margin: 0 auto 1em auto;
+}
+
+.button-cta__link {
+  padding: 1.5em 1em;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+}
+
+.list-eventList {
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+
+  &:after {
+    content: "";
+    width: 100%;
+    display: inline-block;
+  }
+
+  dt {
+    display: inline-block;
+    width: 85%;
+    vertical-align: middle;
+  }
+
+  dd {
+    display: inline-block;
+    width: 12%;
+    vertical-align: middle;
+    margin: 0;
+    text-align: right;
+  }
+
+}
+
+.button-reset {
+  background: $dark;
+  width: 85%;
+  margin: 0 auto;
+  padding: 1em;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  box-sizing: border-box;
+}
